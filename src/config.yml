@@ -1,0 +1,9 @@
+settings:
+  blindness: true
+  session:
+    use: true
+    delay: 60
+  timeout:
+    use: true
+    delay: 60
+  host: www.yoursite.com

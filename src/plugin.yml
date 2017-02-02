@@ -1,0 +1,25 @@
+name: TOTP
+main: me.subtypezero.auth.TOTP
+version: 1.0
+author: SubtypeZero
+description: 'Adds additional login security for Minecraft servers.'
+commands:
+  login:
+    description: Allows a registerd player to login.
+    usage: /login
+  logout:
+    description: Allows a registered player to logout.
+    usage: /logout
+  register:
+    description: Allows console to register a player.
+    usage: /register
+  unregister:
+    description: Allows console to unregister a player.
+    usage: /unregister
+  recover:
+    description: Allows console to recover a registered player's login info.
+    usage: /recover
+permissions:
+  TOTP.verify:
+    description: Users with this permission must use TOTP to verify their login.
+    default: op
